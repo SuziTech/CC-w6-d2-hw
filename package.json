@@ -1,15 +1,23 @@
 {
   "name": "hw_fundamentals_jurassic_park_end",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "mocha specs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Suzanne",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^5.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuziTech/CC-w6-d2-hw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuziTech/CC-w6-d2-hw/issues"
+  },
+  "homepage": "https://github.com/SuziTech/CC-w6-d2-hw#readme",
+  "description": ""
 }
