@@ -5,9 +5,7 @@ const Park = function (name, ticketPrice, dinosaurCollection) {
 }
 
 Park.prototype.dinosaurCollectionLength = function () {
-  this.dinosaurCollection = [];
-  this.dinosaurCollection.push(dinosaur);
-  numberInDinosaurCollection = this.dinosaurCollection.length();
+  numberInDinosaurCollection = this.dinosaurCollection.length;
   return numberInDinosaurCollection;
 }
 

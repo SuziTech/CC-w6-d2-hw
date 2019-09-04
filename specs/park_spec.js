@@ -4,10 +4,12 @@ const Dinosaur = require('../models/dinosaur.js');
 
 describe('Park', function() {
 
+  let dinosaur;
   let park;
 
   beforeEach(function () {
-    park = new Park('SuzanneVille', 800, []);
+    dinosaur = new Dinosaur('t-rex', 'carnivore', 50);
+    park = new Park('SuzanneVille', 800, [dinosaur]);
   })
 
   it('should have a name', function () {
@@ -24,7 +26,7 @@ describe('Park', function() {
     const actual = park.dinosaurCollectionLength();
     assert.strictEqual(actual, 1)
   });
-  
+
   it('should be able to add a dinosaur to its collection');
 
   it('should be able to remove a dinosaur from its collection');
